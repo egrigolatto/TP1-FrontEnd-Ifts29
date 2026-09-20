@@ -23,11 +23,15 @@ window.AppUI.renderPartyList = function renderPartyList(container, members, conf
       row.classList.add("is-active");
     }
 
+    const ageLabel = member.age === "—" || member.age === "" ? "Edad pendiente" : `${member.age} años`;
+
     row.innerHTML = `
-      <div class="party-avatar" aria-hidden="true">${member.avatar}</div>
+      <div class="party-avatar" aria-hidden="true">
+        <img src="${member.avatar}" alt="" class="avatar-img" width="56" height="56" />
+      </div>
       <div>
         <p class="party-name">${member.name}</p>
-        <p class="party-meta">${member.city} | ${member.age} anos</p>
+        <p class="party-meta">${member.city} | ${ageLabel}</p>
       </div>
       <p class="party-class">${member.className}</p>
     `;
@@ -40,22 +44,4 @@ window.AppUI.renderPartyList = function renderPartyList(container, members, conf
   });
 
   container.appendChild(list);
-};
-
-window.AppUI.renderMenuButtons = function renderMenuButtons(container, items, activeId, onClick) {
-  container.innerHTML = "";
-
-  items.forEach((item) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "menu-button";
-    button.textContent = item.label;
-
-    if (item.id === activeId) {
-      button.classList.add("is-selected");
-    }
-
-    button.addEventListener("click", () => onClick(item));
-    container.appendChild(button);
-  });
 };
