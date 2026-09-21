@@ -5,166 +5,182 @@ window.AppData.teamMembers = [
     id: "elian",
     name: "Elian Bargaz",
     className: "Dev Knight",
-    city: "Buenos Aires",
-    age: 22,
-    avatar: "EB",
+    city: "Trenque Lauquen, Buenos Aires, Argentina",
+    age: "29",
+    avatar: "img/avatars/elian.png",
+    profilePage: "perfil-elian.html",
+    github: "https://github.com/Elibar19",
     skills: [
       {
-        name: "Refactor Slash",
-        tags: "Codigo limpio",
-        description: "Reordena bloques complejos para mejorar legibilidad sin romper funcionalidades existentes."
+        name: "Habilidad 1",
+        tags: "Linux",
+        description: "Experiencia en el uso de terminal en Linux, manejo de comandos y herramientas de sistemas."
       },
       {
-        name: "Grid Guard",
-        tags: "CSS Layout",
-        description: "Defiende la UI contra desbordes mediante estructuras responsive y breakpoints estables."
+        name: "Habilidad 2",
+        tags: "Node.js",
+        description: "Experiencia en el uso de Node.js, manejo de frameworks y herramientas de desarrollo."
       },
       {
-        name: "Commit Chain",
-        tags: "Git Flow",
-        description: "Encadena commits pequenos y claros para sostener trazabilidad durante el desarrollo."
+        name: "Habilidad 3",
+        tags: "Soporte IT",
+        description: "Experiencia en el uso de herramientas de soporte IT, monitoreo y herramientas de soporte."
       },
       {
-        name: "Debug Sight",
-        tags: "QA",
-        description: "Detecta errores visuales y logicos antes de desplegar cambios en produccion."
+        name: "Habilidad 4",
+        tags: "Docker",
+        description: "Experiencia en el uso de Docker, manejo de contenedores y herramientas de desarrollo."
       }
     ],
-    movies: ["Matrix", "Interstellar", "The Batman"],
-    albums: ["Meteora", "Random Access Memories", "AM"]
+    movies: ["Harry Potter y el prisionero de Azkaban", "El señor de los anillos: el retorno del rey", "Inception"],
+    albums: ["Peperina - Seru Giran", "Dynamo - Soda Stereo", "Piano bar - Charly Garcia"]
   },
   {
     id: "juan",
-    name: "Juan Solari",
+    name: "Juan Ignacio Solari",
     className: "UI Ranger",
-    city: "Buenos Aires",
-    age: 23,
-    avatar: "JS",
+    // TODO: completar ciudad y edad
+    city: "Pendiente",
+    age: "—",
+    avatar: "img/avatars/juan.png",
+    profilePage: "perfil-juan.html",
+    github: "https://github.com/LaWeaArgentina",
+    // TODO: completar habilidades
     skills: [
       {
-        name: "Pixel Focus",
-        tags: "UI Precision",
-        description: "Ajusta tipografia, espaciados y jerarquia visual para interfaces claras y consistentes."
+        name: "Habilidad 1",
+        tags: "Por completar",
+        description: "Completar descripcion de la habilidad."
       },
       {
-        name: "State Trigger",
-        tags: "JavaScript",
-        description: "Conecta eventos de interfaz con estados de aplicacion para vistas dinamicas y fluidas."
+        name: "Habilidad 2",
+        tags: "Por completar",
+        description: "Completar descripcion de la habilidad."
       },
       {
-        name: "Menu Weave",
-        tags: "UX Navegacion",
-        description: "Disena flujos de menu que guian al usuario sin generar pasos redundantes."
+        name: "Habilidad 3",
+        tags: "Por completar",
+        description: "Completar descripcion de la habilidad."
       },
       {
-        name: "Breakpoint Dash",
-        tags: "Responsive",
-        description: "Optimiza componentes para experiencia solida en 400 px, 900 px y 1200 px."
+        name: "Habilidad 4",
+        tags: "Por completar",
+        description: "Completar descripcion de la habilidad."
       }
     ],
-    movies: ["Your Name", "Blade Runner 2049", "Dune"],
-    albums: ["Discovery", "Currents", "Hybrid Theory"]
+    // TODO: completar peliculas favoritas
+    movies: ["Pelicula 1", "Pelicula 2", "Pelicula 3"],
+    // TODO: completar discos favoritos
+    albums: ["Disco 1", "Disco 2", "Disco 3"]
   },
   {
     id: "eliana",
-    name: "Eliana Navarro",
+    name: "Eliana Gisele Navarro",
     className: "Logic Alchemist",
-    city: "La Plata",
-    age: 24,
-    avatar: "EN",
+    // TODO: completar ciudad y edad
+    city: "Pendiente",
+    age: "—",
+    avatar: "img/avatars/eliana.png",
+    profilePage: "perfil-eliana.html",
+    github: "",
+    // TODO: completar habilidades
     skills: [
       {
-        name: "Data Brew",
-        tags: "Modelado",
-        description: "Construye estructuras de datos robustas para reutilizar contenido en multiples vistas."
+        name: "Habilidad 1",
+        tags: "Por completar",
+        description: "Completar descripcion de la habilidad."
       },
       {
-        name: "Function Pulse",
-        tags: "Programacion",
-        description: "Escribe funciones pequenas y reutilizables que facilitan mantenimiento futuro."
+        name: "Habilidad 2",
+        tags: "Por completar",
+        description: "Completar descripcion de la habilidad."
       },
       {
-        name: "Flow Reading",
-        tags: "Analisis",
-        description: "Mapea casos de uso para reducir puntos ciegos en navegacion e interacciones."
+        name: "Habilidad 3",
+        tags: "Por completar",
+        description: "Completar descripcion de la habilidad."
       },
       {
-        name: "Bug Dissolve",
-        tags: "Resolucion",
-        description: "Aisla y corrige incidencias de forma sistematica con validaciones puntuales."
+        name: "Habilidad 4",
+        tags: "Por completar",
+        description: "Completar descripcion de la habilidad."
       }
     ],
-    movies: ["Spirited Away", "Inception", "Arrival"],
-    albums: ["1989", "Back to Black", "Future Nostalgia"]
+    // TODO: completar peliculas favoritas
+    movies: ["Pelicula 1", "Pelicula 2", "Pelicula 3"],
+    // TODO: completar discos favoritos
+    albums: ["Disco 1", "Disco 2", "Disco 3"]
   },
   {
     id: "fernanda",
     name: "Maria Fernanda Ortiz",
     className: "Content Bard",
-    city: "Cordoba",
-    age: 25,
-    avatar: "MO",
+    // TODO: completar ciudad y edad
+    city: "Córdoba, Córdoba, Argentina",
+    age: "27",
+    avatar: "img/avatars/fernanda.png",
+    profilePage: "perfil-fernanda.html",
+    github: "https://github.com/ortizgonzalezmariafer",
+    // TODO: completar habilidades
     skills: [
       {
-        name: "Narrative Echo",
-        tags: "Storytelling",
-        description: "Convierte datos tecnicos en textos claros para mejorar comprension del usuario final."
+        name: "Habilidad 1",
+        tags: "SQL",
+        description: "Modelo y consulto bases de datos relacionales para estructurar y recuperar información de forma eficiente."
       },
       {
-        name: "Tone Shift",
-        tags: "Copywriting",
-        description: "Ajusta microtextos para mantener coherencia de voz en todo el producto."
+        name: "Habilidad 2",
+        tags: "Diseño",
+        description: "Planifico la estructura y organización visual o funcional de un proyecto antes de llevarlo a la implementación."
       },
       {
-        name: "Icon Chant",
-        tags: "UI Content",
-        description: "Coordina titulos, etiquetas y simbolos para reforzar lectura rapida en pantallas densas."
+        name: "Habilidad 3",
+        tags: "Edición de video",
+        description: "Edito y monto material audiovisual para comunicar contenido de forma clara y prolija."
       },
       {
-        name: "Guide Verse",
-        tags: "Documentacion",
-        description: "Documenta decisiones y flujos para que el equipo pueda escalar sin perdida de contexto."
+        name: "Habilidad 4",
+        tags: "Git",
+        description: "Manejo el control de versiones en repositorios colaborativos, incluyendo ramas, commits y resolución de conflictos."
       }
     ],
-    movies: ["Coco", "Little Women", "Soul"],
-    albums: ["Folklore", "El Mal Querer", "Golden Hour"]
+    // TODO: completar peliculas favoritas
+    movies: ["Pear Harbor", "Les Choristes", "Rescatando al soldado Ryan"],
+    // TODO: completar discos favoritos
+    albums: ["Siesta - Aquelarre", "Californication - RHCP", "Infame - Babasónicos"]
   },
   {
     id: "emanuel",
-    name: "Emanuel Grigolatto",
+    name: "Emanuel Andres Grigolatto",
     className: "Build Paladin",
-    city: "Rosario",
-    age: 26,
-    avatar: "EG",
+    city: "Paraná, Entre Ríos, Argentina",
+    age: "32",
+    avatar: "img/avatars/emanuel.png",
+    profilePage: "perfil-emanuel.html",
+    github: "https://github.com/egrigolatto",
     skills: [
       {
-        name: "Deploy Shield",
-        tags: "Release",
-        description: "Protege despliegues con chequeos previos para evitar fallas en entornos publicados."
+        name: "Habilidad 1",
+        tags: "Desarrollo Web",
+        description: "Experiencia en el desarrollo de aplicaciones web utilizando tecnologías frontend y backend."
       },
       {
-        name: "Repo Watch",
-        tags: "Versionado",
-        description: "Mantiene ramas y pull requests ordenadas para acelerar revisiones colaborativas."
+        name: "Habilidad 2",
+        tags: "JavaScript / TypeScript",
+        description: "Experiencia en programación con JavaScript y TypeScript, aplicando buenas prácticas y herramientas de desarrollo."
       },
       {
-        name: "Task Forge",
-        tags: "Planificacion",
-        description: "Divide entregables grandes en tareas ejecutables con prioridades claras."
+        name: "Habilidad 3",
+        tags: "Bases de Datos",
+        description: "Experiencia trabajando con bases de datos y herramientas para la gestión y persistencia de información."
       },
       {
-        name: "Merge Aura",
-        tags: "Trabajo en equipo",
-        description: "Sincroniza cambios entre integrantes minimizando conflictos de integracion."
+        name: "Habilidad 4",
+        tags: "Linux & Docker",
+        description: "Experiencia utilizando Linux y Docker para gestionar entornos de desarrollo y servicios."
       }
     ],
-    movies: ["Gladiator", "Mad Max Fury Road", "The Martian"],
-    albums: ["Ten", "Nevermind", "A Night at the Opera"]
+    movies: ["Rambo First Blood", "Interstellar", "Pulp Fiction"],
+    albums: ["Dynamo - Soda Stereo", "Animals - Pink Floyd", "Nevermind - Nirvana"]
   }
-];
-
-window.AppData.categoryMenu = [
-  { id: "skills", label: "Habilidades", route: "habilidades.html" },
-  { id: "movies", label: "Peliculas", route: "peliculas.html" },
-  { id: "albums", label: "Albumes", route: "albumes.html" }
 ];
