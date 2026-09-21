@@ -10,7 +10,7 @@ Sitio web grupal con estética RPG Maker. Presenta al equipo y el perfil de cada
 | SOLARI, JUAN IGNACIO | [LaWeaArgentina](https://github.com/LaWeaArgentina) |
 | NAVARRO, ELIANA GISELE | Pendiente de completar |
 | ORTIZ, MARIA FERNANDA | [ortizgonzalezmariafer](https://github.com/ortizgonzalezmariafer)|
-| GRIGOLATTO, EMANUEL ANDRES | Pendiente de completar |
+| GRIGOLATTO, EMANUEL ANDRES | [egrigolatto](https://github.com/egrigolatto) |
 
 Páginas de perfil:
 
