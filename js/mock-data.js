@@ -116,38 +116,38 @@ window.AppData.teamMembers = [
     name: "Maria Fernanda Ortiz",
     className: "Content Bard",
     // TODO: completar ciudad y edad
-    city: "Pendiente",
-    age: "—",
+    city: "Córdoba, Córdoba, Argentina",
+    age: "27",
     avatar: "img/avatars/fernanda.png",
     profilePage: "perfil-fernanda.html",
-    github: "",
+    github: "https://github.com/ortizgonzalezmariafer",
     // TODO: completar habilidades
     skills: [
       {
         name: "Habilidad 1",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "SQL",
+        description: "Modelo y consulto bases de datos relacionales para estructurar y recuperar información de forma eficiente."
       },
       {
         name: "Habilidad 2",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Diseño",
+        description: "Planifico la estructura y organización visual o funcional de un proyecto antes de llevarlo a la implementación."
       },
       {
         name: "Habilidad 3",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Edición de video",
+        description: "Edito y monto material audiovisual para comunicar contenido de forma clara y prolija."
       },
       {
         name: "Habilidad 4",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Git",
+        description: "Manejo el control de versiones en repositorios colaborativos, incluyendo ramas, commits y resolución de conflictos."
       }
     ],
     // TODO: completar peliculas favoritas
-    movies: ["Pelicula 1", "Pelicula 2", "Pelicula 3"],
+    movies: ["Pear Harbor", "Les Choristes", "Rescatando al soldado Ryan"],
     // TODO: completar discos favoritos
-    albums: ["Disco 1", "Disco 2", "Disco 3"]
+    albums: ["Siesta - Aquelarre", "Californication - RHCP", "Infame - Babasónicos"]
   },
   {
     id: "emanuel",
