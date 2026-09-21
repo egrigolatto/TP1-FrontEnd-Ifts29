@@ -153,38 +153,34 @@ window.AppData.teamMembers = [
     id: "emanuel",
     name: "Emanuel Andres Grigolatto",
     className: "Build Paladin",
-    // TODO: completar ciudad y edad
-    city: "Pendiente",
-    age: "—",
+    city: "Paraná, Entre Ríos, Argentina",
+    age: "32",
     avatar: "img/avatars/emanuel.png",
     profilePage: "perfil-emanuel.html",
-    github: "",
-    // TODO: completar habilidades
+    github: "https://github.com/egrigolatto",
     skills: [
       {
         name: "Habilidad 1",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Desarrollo Web",
+        description: "Experiencia en el desarrollo de aplicaciones web utilizando tecnologías frontend y backend."
       },
       {
         name: "Habilidad 2",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "JavaScript / TypeScript",
+        description: "Experiencia en programación con JavaScript y TypeScript, aplicando buenas prácticas y herramientas de desarrollo."
       },
       {
         name: "Habilidad 3",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Bases de Datos",
+        description: "Experiencia trabajando con bases de datos y herramientas para la gestión y persistencia de información."
       },
       {
         name: "Habilidad 4",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Linux & Docker",
+        description: "Experiencia utilizando Linux y Docker para gestionar entornos de desarrollo y servicios."
       }
     ],
-    // TODO: completar peliculas favoritas
-    movies: ["Pelicula 1", "Pelicula 2", "Pelicula 3"],
-    // TODO: completar discos favoritos
-    albums: ["Disco 1", "Disco 2", "Disco 3"]
+    movies: ["Rambo First Blood", "Interstellar", "Pulp Fiction"],
+    albums: ["Dynamo - Soda Stereo", "Animals - Pink Floyd", "Nevermind - Nirvana"]
   }
 ];
