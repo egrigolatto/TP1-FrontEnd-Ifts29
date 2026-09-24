@@ -78,38 +78,38 @@ window.AppData.teamMembers = [
     name: "Eliana Gisele Navarro",
     className: "Logic Alchemist",
     // TODO: completar ciudad y edad
-    city: "Pendiente",
-    age: "—",
+    city: "Quilmes, Buenos Aires, Argentina",
+    age: "36",
     avatar: "img/avatars/eliana.png",
     profilePage: "perfil-eliana.html",
-    github: "",
+    github: "https://github.com/Eli-Navarr0",
     // TODO: completar habilidades
     skills: [
       {
         name: "Habilidad 1",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Contabilidad",
+        description: "Formación y experiencia en el área contable, con manejo de balances, impuestos y análisis financiero."
       },
       {
         name: "Habilidad 2",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Natación",
+        description: "Disciplina deportiva que fortalece la respiración, y mantiene en buen estado físico y mental, con capacidad de resistencia y concentración."
       },
       {
         name: "Habilidad 3",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Idiomas",
+        description: "Comunicación fluida en tres idiomas (Español / Inglés / Alemán), ideal para entornos multiculturales."
       },
       {
         name: "Habilidad 4",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Data Analytics",
+        description: "Interpretación de datos y modelado de escenarios para la toma de decisiones estratégicas."
       }
     ],
     // TODO: completar peliculas favoritas
-    movies: ["Pelicula 1", "Pelicula 2", "Pelicula 3"],
+    movies: ["Titanes del Pacífico", "El extraño mundo de Jack", "Yo antes de ti"],
     // TODO: completar discos favoritos
-    albums: ["Disco 1", "Disco 2", "Disco 3"]
+    albums: ["Demon Days - Gorillaz", "Concrete Jungle - Bad Omens", "Hybrid Theory - Linkin Park"]
   },
   {
     id: "fernanda",
