@@ -125,7 +125,6 @@ window.AppPages.initProfilePage = function initProfilePage(memberId) {
       }
       li.innerHTML = `
         <p class="skill-name">${item.name}</p>
-        <p class="skill-tags">${item.tags}</p>
       `;
       li.addEventListener("click", () => {
         highlightedSkill = index;

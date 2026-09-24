@@ -12,23 +12,19 @@ window.AppData.teamMembers = [
     github: "https://github.com/Elibar19",
     skills: [
       {
-        name: "Habilidad 1",
-        tags: "Linux",
+        name: "Linux",
         description: "Experiencia en el uso de terminal en Linux, manejo de comandos y herramientas de sistemas."
       },
       {
-        name: "Habilidad 2",
-        tags: "Node.js",
+        name: "Node.js",
         description: "Experiencia en el uso de Node.js, manejo de frameworks y herramientas de desarrollo."
       },
       {
-        name: "Habilidad 3",
-        tags: "Soporte IT",
+        name: "Soporte IT",
         description: "Experiencia en el uso de herramientas de soporte IT, monitoreo y herramientas de soporte."
       },
       {
-        name: "Habilidad 4",
-        tags: "Docker",
+        name: "Docker",
         description: "Experiencia en el uso de Docker, manejo de contenedores y herramientas de desarrollo."
       }
     ],
@@ -50,23 +46,19 @@ window.AppData.teamMembers = [
     github: "https://github.com/LaWeaArgentina",
     skills: [
       {
-        name: "Habilidad 1",
-        tags: "Full Stack",
+        name: "Full Stack",
         description: "Experiencia desarrollando software a medida a base de cabezazos"
       },
       {
-        name: "Habilidad 2",
-        tags: "Sordera parcial",
+        name: "Sordera parcial",
         description: "Consecuencia de pasar demasiado tiempo en recitales de dudosa procedencia"
       },
       {
-        name: "Habilidad 3",
-        tags: "Paciencia sobrehumana",
+        name: "Paciencia sobrehumana",
         description: "Alta resistencia a la frustración por años sufriendo con la franquicia Monster Hunter."
       },
       {
-        name: "Habilidad 4",
-        tags: "Googlear",
+        name: "Googlear",
         description: "Si, más importante de lo que parece."
       }
     ],
@@ -93,23 +85,19 @@ window.AppData.teamMembers = [
     // TODO: completar habilidades
     skills: [
       {
-        name: "Habilidad 1",
-        tags: "Nadar",
+        name: "Nadar",
         description: "Completar descripcion de la habilidad."
       },
       {
-        name: "Habilidad 2",
-        tags: "Dibujar",
+        name: "Dibujar",
         description: "Completar descripcion de la habilidad."
       },
       {
-        name: "Habilidad 3",
-        tags: "Hablar 3 idiomas",
+        name: "Hablar 3 idiomas",
         description: "Completar descripcion de la habilidad."
       },
       {
-        name: "Habilidad 4",
-        tags: "Por completar",
+        name: "Por completar",
         description: "Completar descripcion de la habilidad."
       }
     ],
@@ -131,23 +119,19 @@ window.AppData.teamMembers = [
     github: "https://github.com/ortizgonzalezmariafer",
     skills: [
       {
-        name: "Habilidad 1",
-        tags: "SQL",
+        name: "SQL",
         description: "Modelo y consulto bases de datos relacionales para estructurar y recuperar información de forma eficiente."
       },
       {
-        name: "Habilidad 2",
-        tags: "Diseño",
+        name: "Diseño",
         description: "Planifico la estructura y organización visual o funcional de un proyecto antes de llevarlo a la implementación."
       },
       {
-        name: "Habilidad 3",
-        tags: "Edición de video",
+        name: "Edición de video",
         description: "Edito y monto material audiovisual para comunicar contenido de forma clara y prolija."
       },
       {
-        name: "Habilidad 4",
-        tags: "Git",
+        name: "Git",
         description: "Manejo el control de versiones en repositorios colaborativos, incluyendo ramas, commits y resolución de conflictos."
       }
     ],
@@ -169,23 +153,19 @@ window.AppData.teamMembers = [
     github: "https://github.com/egrigolatto",
     skills: [
       {
-        name: "Habilidad 1",
-        tags: "Desarrollo Web",
+        name: "Desarrollo Web",
         description: "Experiencia en el desarrollo de aplicaciones web utilizando tecnologías frontend y backend."
       },
       {
-        name: "Habilidad 2",
-        tags: "JavaScript / TypeScript",
+        name: "JavaScript / TypeScript",
         description: "Experiencia en programación con JavaScript y TypeScript, aplicando buenas prácticas y herramientas de desarrollo."
       },
       {
-        name: "Habilidad 3",
-        tags: "Bases de Datos",
+        name: "Bases de Datos",
         description: "Experiencia trabajando con bases de datos y herramientas para la gestión y persistencia de información."
       },
       {
-        name: "Habilidad 4",
-        tags: "Linux & Docker",
+        name: "Linux & Docker",
         description: "Experiencia utilizando Linux y Docker para gestionar entornos de desarrollo y servicios."
       }
     ],
