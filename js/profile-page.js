@@ -14,6 +14,54 @@ window.AppPages.initProfilePage = function initProfilePage(memberId) {
 
   let highlightedSkill = 0;
 
+  const closeAlbumModal = () => {
+    const modal = document.querySelector(".album-modal");
+    if (modal?.closeOnEscape) {
+      document.removeEventListener("keydown", modal.closeOnEscape);
+    }
+    modal?.remove();
+    document.body.classList.remove("modal-open");
+  };
+
+  const openAlbumModal = (album) => {
+    if (!album.youtubeUrl) {
+      return;
+    }
+
+    closeAlbumModal();
+
+    const modal = document.createElement("div");
+    modal.className = "album-modal";
+    modal.innerHTML = `
+      <div class="album-modal-content" role="dialog" aria-modal="true" aria-label="Reproductor de ${album.name}">
+        <button class="album-modal-close" type="button" aria-label="Cerrar reproductor">&times;</button>
+        <iframe
+          src="${album.youtubeUrl}"
+          title="Reproductor de ${album.name}"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    `;
+
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal || event.target.closest(".album-modal-close")) {
+        closeAlbumModal();
+      }
+    });
+    const closeOnEscape = (event) => {
+      if (event.key === "Escape") {
+        closeAlbumModal();
+      }
+    };
+    modal.closeOnEscape = closeOnEscape;
+    document.addEventListener("keydown", closeOnEscape);
+
+    document.body.appendChild(modal);
+    document.body.classList.add("modal-open");
+  };
+
   const render = () => {
     root.innerHTML = `
       <section class="profile-hero window">
@@ -47,20 +95,27 @@ window.AppPages.initProfilePage = function initProfilePage(memberId) {
         <section class="window profile-panel">
           <h2 class="window-title">Discos favoritos</h2>
           <ul class="skills-list">
-            ${member.albums.map((album) => `<li class="skill-item"><p class="skill-name">${album}</p></li>`).join("")}
+            ${member.albums
+              .map(
+                (album, index) => `
+                  <li class="skill-item album-item">
+                    <p class="skill-name">${album.name}</p>
+                    ${album.portada ? `<img class="album-cover${album.youtubeUrl ? " is-clickable" : ""}" data-album-index="${index}" src="${album.portada}" alt="Portada de ${album.name}" loading="lazy" />` : ""}
+                  </li>
+                `
+              )
+              .join("")}
           </ul>
         </section>
       </div>
-
-      <nav class="page-nav window profile-nav">
-        <a class="back-link" href="index.html">Menu principal</a>
-        <a class="back-link" href="index.html#perfiles">Perfiles</a>
-        <a class="back-link" href="bitacora.html">Bitacora</a>
-      </nav>
     `;
 
     const skillsList = document.getElementById("profile-skills");
     const skillDesc = document.getElementById("profile-skill-desc");
+
+    root.querySelectorAll(".album-cover.is-clickable").forEach((cover) => {
+      cover.addEventListener("click", () => openAlbumModal(member.albums[cover.dataset.albumIndex]));
+    });
 
     member.skills.forEach((item, index) => {
       const li = document.createElement("li");

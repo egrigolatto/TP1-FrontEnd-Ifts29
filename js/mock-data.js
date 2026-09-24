@@ -33,53 +33,60 @@ window.AppData.teamMembers = [
       }
     ],
     movies: ["Harry Potter y el prisionero de Azkaban", "El señor de los anillos: el retorno del rey", "Inception"],
-    albums: ["Peperina - Seru Giran", "Dynamo - Soda Stereo", "Piano bar - Charly Garcia"]
+    albums: [
+      { name: "Seru Giran - Peperina", portada: "img/albums/Peperina.png", youtubeUrl: "https://www.youtube.com/embed/SXfZwfAh8iM?si=L_LxpHkoajNUKilN" },
+      { name: "Soda Stereo - Dynamo", portada: "img/albums/Dynamo.png", youtubeUrl: "https://www.youtube.com/embed/H1uFesEPqJQ?si=4zFWeqg-SVLg3VPz" },
+      { name: "Charly Garcia - Piano bar", portada: "img/albums/Piano_bar.png", youtubeUrl: "https://www.youtube.com/embed/rdyLQkeKLis?si=qLvx8VzNNsjF11tP" }
+    ]
   },
   {
     id: "juan",
     name: "Juan Ignacio Solari",
     className: "UI Ranger",
-    // TODO: completar ciudad y edad
-    city: "Pendiente",
-    age: "—",
+    city: "Buenos Aires, Argentina",
+    age: "23",
     avatar: "img/avatars/juan.png",
     profilePage: "perfil-juan.html",
     github: "https://github.com/LaWeaArgentina",
-    // TODO: completar habilidades
     skills: [
       {
         name: "Habilidad 1",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Full Stack",
+        description: "Experiencia desarrollando software a medida a base de cabezazos"
       },
       {
         name: "Habilidad 2",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Sordera parcial",
+        description: "Consecuencia de pasar demasiado tiempo en recitales de dudosa procedencia"
       },
       {
         name: "Habilidad 3",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Paciencia sobrehumana",
+        description: "Alta resistencia a la frustración por años sufriendo con la franquicia Monster Hunter."
       },
       {
         name: "Habilidad 4",
-        tags: "Por completar",
-        description: "Completar descripcion de la habilidad."
+        tags: "Googlear",
+        description: "Si, más importante de lo que parece."
       }
     ],
-    // TODO: completar peliculas favoritas
-    movies: ["Pelicula 1", "Pelicula 2", "Pelicula 3"],
-    // TODO: completar discos favoritos
-    albums: ["Disco 1", "Disco 2", "Disco 3"]
+    movies: ["Grave of the Fireflies", "Shutter Island", "Coraline"],
+    albums: [
+      { name: "Dark Tranquillity - The Gallery", portada: "img/albums/The_gallery.png", youtubeUrl: "https://www.youtube.com/embed/hW_qlf5O4Es?si=2q7EBudUTidOg8aU" },
+      {
+        name: "Mercyful Fate - Don't Break the Oath",
+        portada: "img/albums/Dont_break_the_oath.png",
+        youtubeUrl: "https://www.youtube.com/embed/gU0hUOkljr4?si=bu7OQx-WjYlZBsaD"
+      },
+      { name: "Intestine Baalism - An Anatomy of the Beast", portada: "img/albums/An_anatomy_of_the_beast.png", youtubeUrl: "https://www.youtube.com/embed/5c1_bpdzUGQ?si=dQavULjibtKKHDsE" }
+    ]
   },
   {
     id: "eliana",
     name: "Eliana Gisele Navarro",
     className: "Logic Alchemist",
-    // TODO: completar ciudad y edad
-    city: "Pendiente",
-    age: "—",
+    city: "Quilmes, Buenos Aires, Argentina",
+    age: "36",
     avatar: "img/avatars/eliana.png",
     profilePage: "perfil-eliana.html",
     github: "",
@@ -87,17 +94,17 @@ window.AppData.teamMembers = [
     skills: [
       {
         name: "Habilidad 1",
-        tags: "Por completar",
+        tags: "Nadar",
         description: "Completar descripcion de la habilidad."
       },
       {
         name: "Habilidad 2",
-        tags: "Por completar",
+        tags: "Dibujar",
         description: "Completar descripcion de la habilidad."
       },
       {
         name: "Habilidad 3",
-        tags: "Por completar",
+        tags: "Hablar 3 idiomas",
         description: "Completar descripcion de la habilidad."
       },
       {
@@ -106,22 +113,22 @@ window.AppData.teamMembers = [
         description: "Completar descripcion de la habilidad."
       }
     ],
-    // TODO: completar peliculas favoritas
-    movies: ["Pelicula 1", "Pelicula 2", "Pelicula 3"],
-    // TODO: completar discos favoritos
-    albums: ["Disco 1", "Disco 2", "Disco 3"]
+    movies: ["Titanes del Pacífico", "El extraño mundo de Jack", "Yo antes de ti"],
+    albums: [
+      { name: "Bad Omens - Concrete Jungle", portada: "img/albums/Concrete_jungle.png", youtubeUrl: "https://www.youtube.com/embed/zTFpsNUJloM?si=2Z0j0RgzDDOOfk_D" },
+      { name: "Linkin Park - Hybrid Theory", portada: "img/albums/Hybrid_theory.png", youtubeUrl: "https://www.youtube.com/embed/D2ts2GWOSv8?si=RTjvDM0iSNrs5O8X" },
+      { name: "Gorillaz - Demon Days", portada: "img/albums/Demon_days.png", youtubeUrl: "https://www.youtube.com/embed/dC7zzhVXdWI?si=X-AHXbQIIaHnUmqR" }
+    ]
   },
   {
     id: "fernanda",
     name: "Maria Fernanda Ortiz",
     className: "Content Bard",
-    // TODO: completar ciudad y edad
     city: "Córdoba, Córdoba, Argentina",
     age: "27",
     avatar: "img/avatars/fernanda.png",
     profilePage: "perfil-fernanda.html",
     github: "https://github.com/ortizgonzalezmariafer",
-    // TODO: completar habilidades
     skills: [
       {
         name: "Habilidad 1",
@@ -144,10 +151,12 @@ window.AppData.teamMembers = [
         description: "Manejo el control de versiones en repositorios colaborativos, incluyendo ramas, commits y resolución de conflictos."
       }
     ],
-    // TODO: completar peliculas favoritas
     movies: ["Pear Harbor", "Les Choristes", "Rescatando al soldado Ryan"],
-    // TODO: completar discos favoritos
-    albums: ["Siesta - Aquelarre", "Californication - RHCP", "Infame - Babasónicos"]
+    albums: [
+      { name: "Aquelarre - Siesta", portada: "img/albums/Siesta.png", youtubeUrl: "https://www.youtube.com/embed/lDP1eawwWx8?si=7E_Hvc_eTH33vH1F" },
+      { name: "RHCP - Californication", portada: "img/albums/Californication.png", youtubeUrl: "https://www.youtube.com/embed/RXWIitU8V0A?si=996uKG_eIjpt3OEL" },
+      { name: "Babasónicos - Infame", portada: "img/albums/Infame.png", youtubeUrl: "https://www.youtube.com/embed/Fxu5wNVBkOU?si=a4PucceEiGza2zg3" }
+    ]
   },
   {
     id: "emanuel",
@@ -181,6 +190,10 @@ window.AppData.teamMembers = [
       }
     ],
     movies: ["Rambo First Blood", "Interstellar", "Pulp Fiction"],
-    albums: ["Dynamo - Soda Stereo", "Animals - Pink Floyd", "Nevermind - Nirvana"]
+    albums: [
+      { name: "Soda Stereo - Dynamo", portada: "img/albums/Dynamo.png", youtubeUrl: "https://www.youtube.com/embed/H1uFesEPqJQ?si=ef1tJfHGsccuucKq" },
+      { name: "Pink Floyd - Animals", portada: "img/albums/Animals.png", youtubeUrl: "https://www.youtube.com/embed/D4KQae9oMWs?si=sl1Eha5LgY7lcHVJ" },
+      { name: "Nirvana - Nevermind", portada: "img/albums/Nevermind.png", youtubeUrl: "https://www.youtube.com/embed/7NXz2sy6h40?si=rPbl3HN2asziYKy4" }
+    ]
   }
 ];
