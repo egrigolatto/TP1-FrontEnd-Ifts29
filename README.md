@@ -106,6 +106,27 @@ avatares pixel art del equipo, para generar la versión inicial del proyecto con
         ├── Piano_bar.png
         ├── Siesta.png
         └── The_gallery.png
+    ├── avatars/
+    │   ├── elian.png
+    │   ├── juan.png
+    │   ├── eliana.png
+    │   ├── fernanda.png
+    │   └── emanuel.png
+    └── albums/
+        ├── Animals.png
+        ├── An_anatomy_of_the_beast.png
+        ├── Californication.png
+        ├── Concrete_jungle.png
+        ├── Demon_days.png
+        ├── Dont_break_the_oath.png
+        ├── Dynamo.png
+        ├── Hybrid_theory.png
+        ├── Infame.png
+        ├── Nevermind.png
+        ├── Peperina.png
+        ├── Piano_bar.png
+        ├── Siesta.png
+        └── The_gallery.png
 ```
 
 ## Funciones JavaScript
@@ -114,6 +135,7 @@ avatares pixel art del equipo, para generar la versión inicial del proyecto con
 
 - **Click en integrante**: abre directamente su página de perfil.
 - Archivos: `js/index-page.js`, `js/portada.js`.
+- Navegación superior: **Inicio / Bitácora**.
 - Navegación superior: **Inicio / Bitácora**.
 
 ### Perfiles (`perfil-*.html`)
@@ -126,6 +148,7 @@ avatares pixel art del equipo, para generar la versión inicial del proyecto con
 
 - `js/mock-data.js` concentra integrantes, skills, movies y albums.
 - Los datos de cada integrante incluyen ciudad, edad, cuatro habilidades, tres películas y tres discos favoritos.
+- Los datos de cada integrante incluyen ciudad, edad, cuatro habilidades, tres películas y tres discos favoritos.
 
 ## Bitácora
 
@@ -136,9 +159,13 @@ Disponible en [bitacora.html](bitacora.html): decisiones de diseño, dificultade
 Pendiente de publicar:
 
 `https://https://tp-1-front-end-ifts29.vercel.app`
+`https://https://tp-1-front-end-ifts29.vercel.app`
 
 ## Evolución (siguientes TPs)
 
+- Incorporar nuevas interacciones y mejoras de accesibilidad.
+- Ampliar la bitácora con el proceso de los siguientes trabajos prácticos.
+- Mantener actualizado el contenido y continuar mejorando la experiencia responsive.
 - Incorporar nuevas interacciones y mejoras de accesibilidad.
 - Ampliar la bitácora con el proceso de los siguientes trabajos prácticos.
 - Mantener actualizado el contenido y continuar mejorando la experiencia responsive.
