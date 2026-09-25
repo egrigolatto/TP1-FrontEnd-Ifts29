@@ -8,7 +8,7 @@ Sitio web grupal con estética RPG Maker. Presenta al equipo y el perfil de cada
 | --- | --- |
 | BARGAZ, ELIÁN | [Elibar19](https://github.com/Elibar19) |
 | SOLARI, JUAN IGNACIO | [LaWeaArgentina](https://github.com/LaWeaArgentina) |
-| NAVARRO, ELIANA GISELE | Pendiente de completar |
+| NAVARRO, ELIANA GISELE | [Eli-Navarr0] (https://github.com/Eli-Navarr0) |
 | ORTIZ, MARIA FERNANDA | [ortizgonzalezmariafer](https://github.com/ortizgonzalezmariafer)|
 | GRIGOLATTO, EMANUEL ANDRES | [egrigolatto](https://github.com/egrigolatto) |
 
