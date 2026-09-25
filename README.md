@@ -54,6 +54,11 @@ Páginas de perfil:
 
 Avatares pixel art 8-bit RPG en `img/avatars/` (uno por integrante). No se usan fotos personales.
 
+### Uso de IA
+
+Se utilizó una herramienta de inteligencia artificial generativa para crear los
+avatares pixel art del equipo y para generar la versión inicial del proyecto con estética temática, principalmente el CSS neesario. La selección de la estética, la organización del contenido, la edición de los recursos y la integración final fueron realizadas por el equipo.
+
 ### Breakpoints obligatorios
 
 - `1200px`
@@ -80,12 +85,27 @@ Avatares pixel art 8-bit RPG en `img/avatars/` (uno por integrante). No se usan 
 │   ├── profile-page.js
 │   └── portada.js
 └── img/
-    └── avatars/
-        ├── elian.png
-        ├── juan.png
-        ├── eliana.png
-        ├── fernanda.png
-        └── emanuel.png
+    ├── avatars/
+    │   ├── elian.png
+    │   ├── juan.png
+    │   ├── eliana.png
+    │   ├── fernanda.png
+    │   └── emanuel.png
+    └── albums/
+        ├── Animals.png
+        ├── An_anatomy_of_the_beast.png
+        ├── Californication.png
+        ├── Concrete_jungle.png
+        ├── Demon_days.png
+        ├── Dont_break_the_oath.png
+        ├── Dynamo.png
+        ├── Hybrid_theory.png
+        ├── Infame.png
+        ├── Nevermind.png
+        ├── Peperina.png
+        ├── Piano_bar.png
+        ├── Siesta.png
+        └── The_gallery.png
 ```
 
 ## Funciones JavaScript
@@ -94,7 +114,7 @@ Avatares pixel art 8-bit RPG en `img/avatars/` (uno por integrante). No se usan 
 
 - **Click en integrante**: abre directamente su página de perfil.
 - Archivos: `js/index-page.js`, `js/portada.js`.
-- Navegación superior: **Inicio / Bitácora / Perfiles**.
+- Navegación superior: **Inicio / Bitácora**.
 
 ### Perfiles (`perfil-*.html`)
 
@@ -105,7 +125,7 @@ Avatares pixel art 8-bit RPG en `img/avatars/` (uno por integrante). No se usan 
 ### Datos compartidos
 
 - `js/mock-data.js` concentra integrantes, skills, movies y albums.
-- Campos marcados con `// TODO: completar` para que cada integrante personalice ciudad, edad, habilidades, películas y discos.
+- Los datos de cada integrante incluyen ciudad, edad, cuatro habilidades, tres películas y tres discos favoritos.
 
 ## Bitácora
 
@@ -115,12 +135,13 @@ Disponible en [bitacora.html](bitacora.html): decisiones de diseño, dificultade
 
 Pendiente de publicar:
 
-`https://tu-proyecto.vercel.app`
+`https://https://tp-1-front-end-ifts29.vercel.app`
 
 ## Evolución (siguientes TPs)
 
-- Completar perfiles personales.
-- Despliegue en Vercel y enlace definitivo.
+- Incorporar nuevas interacciones y mejoras de accesibilidad.
+- Ampliar la bitácora con el proceso de los siguientes trabajos prácticos.
+- Mantener actualizado el contenido y continuar mejorando la experiencia responsive.
 
 ## Cómo probar en local
 
