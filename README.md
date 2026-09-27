@@ -131,6 +131,58 @@ avatares pixel art del equipo, para generar la versión inicial del proyecto con
 
 ## Funciones JavaScript
 
+Las funcionalidades interactivas están organizadas en módulos JavaScript y se
+comparten entre la portada y las páginas de perfil.
+
+### Portada
+
+En la portada, al hacer clic sobre un integrante, se redirige automáticamente a
+su página de perfil.
+
+![Vista de la portada](img/screenshots/portada.png)
+
+- `initIndexPage()` renderiza la lista de integrantes y configura los eventos
+    de clic.
+- El evento de selección navega mediante `window.location.href =
+    member.profilePage`.
+- La lógica está implementada en [`js/index-page.js`](js/index-page.js) y se
+    inicializa desde [`js/portada.js`](js/portada.js).
+
+### Perfiles individuales
+
+[`js/profile-page.js`](js/profile-page.js) se utiliza en los cinco perfiles para
+inyectar dinámicamente el contenido de cada integrante: avatar, información
+personal, habilidades, películas y discos favoritos.
+
+![Vista de un perfil](img/screenshots/perfil.png)
+
+### Resaltado de habilidades
+
+Al pasar el cursor o hacer clic sobre una habilidad, esta se resalta
+visualmente. Al seleccionarla, también se actualiza la descripción que aparece
+debajo de la lista.
+
+- `highlightedSkill` conserva la habilidad seleccionada.
+- El evento `click` de cada habilidad actualiza la selección.
+- `render()` vuelve a dibujar el componente con el estado actualizado.
+
+![Vista del componente de habilidades](img/screenshots/habilidades.png)
+
+### Reproductor de discos
+
+Cada portada de disco es interactiva. Al hacer clic sobre ella, se abre un
+modal con un reproductor de YouTube.
+
+![Vista de los discos favoritos](img/screenshots/discos.png)
+
+El modal puede cerrarse mediante el botón de cierre, haciendo clic fuera del
+reproductor o presionando la tecla `Escape`. Esta funcionalidad se implementa
+con `openAlbumModal()` y `closeAlbumModal()`.
+
+![Vista del reproductor](img/screenshots/reproductor.png)
+
+Además, ui-components.js contiene funciones auxiliares para buscar integrantes y renderizar la lista de la portada, mientras que mock-data.js contiene los datos de integrantes, habilidades, películas y discos.
+
 ### Portada (`index.html`)
 
 - **Click en integrante**: abre directamente su página de perfil.
