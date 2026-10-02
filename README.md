@@ -208,10 +208,7 @@ Disponible en [bitacora.html](bitacora.html): decisiones de diseño, dificultade
 
 ## URL publicada en Vercel
 
-Pendiente de publicar:
-
-`https://https://tp-1-front-end-ifts29.vercel.app`
-`https://https://tp-1-front-end-ifts29.vercel.app`
+`https://tp-1-front-end-ifts29.vercel.app`
 
 ## Evolución (siguientes TPs)
 
